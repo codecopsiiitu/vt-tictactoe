@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TIC_TAK_TOE2</string>
+    <string name="play">play</string>
+    <string name="buy_premium">BUY PREMIUM</string>
+    <string name="Multi_player">Multi_player</string>
+    <string name="VS_AI">VS_AI</string>
+    <string name="Back">Back</string>
+    <string name="player_1_0">Player 1: 0</string>
+    <string name="plyer_2_0">Plyer 2: 0</string>
+    <string name="player_2_0">player 2: 0</string>
+    <string name="reset">reset</string>
+    <string name="computer">computer : 0</string>
+
+</resources>
