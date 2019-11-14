@@ -13,7 +13,7 @@ public class ExampleDialog1 extends AppCompatDialogFragment {
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         AlertDialog.Builder builder=new AlertDialog.Builder(getActivity());
         builder.setTitle("WIINER DECLARATION")
-                .setMessage("Player 1 is the winner")
+                .setMessage("Player 2 is the winner")
                 .setPositiveButton("ok", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

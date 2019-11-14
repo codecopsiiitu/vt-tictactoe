@@ -56,7 +56,8 @@ private Button B_07;
                 B_01.setText(o);
                 b1=-1;
             }
-            if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3))
+            B_01.setEnabled(false);
+            if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3)||(b1+b2+b3==3)||(b4+b5+b6==3)||(b7+b8+b9==3))
             {
              n1++;
                 openDialog();
@@ -71,7 +72,7 @@ private Button B_07;
                 B_08.setEnabled(false);
                 B_09.setEnabled(false);
             }
-                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3))
+                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3)||(b1+b2+b3==-3)||(b4+b5+b6==-3)||(b7+b8+b9==-3))
                 {
                     n2++;
                     openDialog1();
@@ -102,7 +103,8 @@ private Button B_07;
                     B_02.setText(o);
                     b2=-1;
                 }
-                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3))
+                B_02.setEnabled(false);
+                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3)||(b1+b2+b3==3)||(b4+b5+b6==3)||(b7+b8+b9==3))
                 {
                     n1++;
                     openDialog();
@@ -117,7 +119,7 @@ private Button B_07;
                     B_08.setEnabled(false);
                     B_09.setEnabled(false);
                 }
-                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3))
+                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3)||(b1+b2+b3==-3)||(b4+b5+b6==-3)||(b7+b8+b9==-3))
                 {
                     n2++;
                     openDialog1();
@@ -148,7 +150,8 @@ private Button B_07;
                     B_03.setText(o);
                     b3=-1;
                 }
-                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3))
+                B_03.setEnabled(false);
+                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3)||(b1+b2+b3==3)||(b4+b5+b6==3)||(b7+b8+b9==3))
                 {
                     n1++;
                     openDialog();
@@ -163,7 +166,7 @@ private Button B_07;
                     B_08.setEnabled(false);
                     B_09.setEnabled(false);
                 }
-                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3))
+                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3)||(b1+b2+b3==-3)||(b4+b5+b6==-3)||(b7+b8+b9==-3))
                 {
                     n2++;
                     openDialog1();
@@ -194,7 +197,8 @@ private Button B_07;
                     B_04.setText(o);
                     b4=-1;
                 }
-                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3))
+                B_04.setEnabled(false);
+                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3)||(b1+b2+b3==3)||(b4+b5+b6==3)||(b7+b8+b9==3))
                 {
                     n1++;
                     openDialog();
@@ -209,7 +213,7 @@ private Button B_07;
                     B_08.setEnabled(false);
                     B_09.setEnabled(false);
                 }
-                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3))
+                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3)||(b1+b2+b3==-3)||(b4+b5+b6==-3)||(b7+b8+b9==-3))
                 {
                     n2++;
                     openDialog1();
@@ -240,7 +244,8 @@ private Button B_07;
                     B_05.setText(o);
                     b5=-1;
                 }
-                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3))
+                B_05.setEnabled(false);
+                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3)||(b1+b2+b3==3)||(b4+b5+b6==3)||(b7+b8+b9==3))
                 {
                     n1++;
                     openDialog();
@@ -255,7 +260,7 @@ private Button B_07;
                     B_08.setEnabled(false);
                     B_09.setEnabled(false);
                 }
-                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3))
+                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3)||(b1+b2+b3==-3)||(b4+b5+b6==-3)||(b7+b8+b9==-3))
                 {
                     n2++;
                     openDialog1();
@@ -286,7 +291,8 @@ private Button B_07;
                     B_06.setText(o);
                     b6=-1;
                 }
-                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3))
+                B_06.setEnabled(false);
+                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3)||(b1+b2+b3==3)||(b4+b5+b6==3)||(b7+b8+b9==3))
                 {
                     n1++;
                     openDialog();
@@ -301,7 +307,7 @@ private Button B_07;
                     B_08.setEnabled(false);
                     B_09.setEnabled(false);
                 }
-                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3))
+                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3)||(b1+b2+b3==-3)||(b4+b5+b6==-3)||(b7+b8+b9==-3))
                 {
                     n2++;
                     openDialog1();
@@ -332,7 +338,8 @@ private Button B_07;
                     B_07.setText(o);
                     b7=-1;
                 }
-                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3))
+                B_07.setEnabled(false);
+                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3)||(b1+b2+b3==3)||(b4+b5+b6==3)||(b7+b8+b9==3))
                 {
                     n1++;
                     openDialog();
@@ -347,7 +354,7 @@ private Button B_07;
                     B_08.setEnabled(false);
                     B_09.setEnabled(false);
                 }
-                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3))
+                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3)||(b1+b2+b3==-3)||(b4+b5+b6==-3)||(b7+b8+b9==-3))
                 {
                     n2++;
                     openDialog1();
@@ -378,7 +385,8 @@ private Button B_07;
                     B_08.setText(o);
                     b8=-1;
                 }
-                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3))
+                B_08.setEnabled(false);
+                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3)||(b1+b2+b3==3)||(b4+b5+b6==3)||(b7+b8+b9==3))
                 {
                     n1++;
                     openDialog();
@@ -393,7 +401,7 @@ private Button B_07;
                     B_08.setEnabled(false);
                     B_09.setEnabled(false);
                 }
-                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3))
+                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3)||(b1+b2+b3==-3)||(b4+b5+b6==-3)||(b7+b8+b9==-3))
                 {
                     n2++;
                     openDialog1();
@@ -424,7 +432,8 @@ private Button B_07;
                     B_09.setText(o);
                     b9=-1;
                 }
-                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3))
+                B_09.setEnabled(false);
+                if((b1+b4+b7==3)||(b2+b5+b8==3)||(b3+b6+b9==3)||(b1+b5+b9==3)||(b3+b5+b7==3)||(b1+b2+b3==3)||(b4+b5+b6==3)||(b7+b8+b9==3))
                 {
                     n1++;
                     openDialog();
@@ -439,7 +448,7 @@ private Button B_07;
                     B_08.setEnabled(false);
                     B_09.setEnabled(false);
                 }
-                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3))
+                if((b1+b4+b7==-3)||(b2+b5+b8==-3)||(b3+b6+b9==-3)||(b1+b5+b9==-3)||(b3+b5+b7==-3)||(b1+b2+b3==-3)||(b4+b5+b6==-3)||(b7+b8+b9==-3))
                 {
                     n2++;
                     openDialog1();
