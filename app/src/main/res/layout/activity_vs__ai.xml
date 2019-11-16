@@ -43,13 +43,13 @@
         android:layout_height="0dp"
         android:layout_weight="1">
         <Button
-            android:id="@+id/button_00"
+            android:id="@+id/button_01"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:textSize="60sp"
             android:layout_weight="1"/>
         <Button
-            android:id="@+id/button_01"
+            android:id="@+id/button_02"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:textSize="60sp"
@@ -71,12 +71,14 @@
             android:layout_height="match_parent"
             android:textSize="60sp"
             android:layout_weight="1"/>
+
         <Button
             android:id="@+id/button_05"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:textSize="60sp"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:textSize="60sp" />
+
         <Button
             android:id="@+id/button_06"
             android:layout_width="0dp"

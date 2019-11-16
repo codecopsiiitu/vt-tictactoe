@@ -1,6 +1,5 @@
 package com.example.tic_tak_toe2;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
